@@ -1,12 +1,14 @@
 import Header from './components/Layout/Header';
 import Meals from './components/Meals/Meals';
+import CartModal from './components/Cart/CartModal';
 
 function App() {
   return (
     <>
-      <Header />
+      <CartModal/>
+      <Header/>
       <main>
-        <Meals />
+        <Meals/>
       </main>
     </>
   );
